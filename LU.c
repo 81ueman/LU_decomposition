@@ -6,8 +6,8 @@
 #include <stdalign.h>
 #include <immintrin.h>
 
-#define N 10000
-#define bsize 40
+#define N 4800
+#define bsize 48
 alignas(32) double a[N][N];
 double b[N];
 double y[N];
